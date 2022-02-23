@@ -1,0 +1,96 @@
+@mixin hexagono() {
+  margin-top: 5%;
+  height: 50px;
+  width: 90px;
+  background: $bere;
+  position: relative;
+  float: left;
+  margin-left: 3%;
+  cursor: pointer;
+}
+@mixin hexagonoBefore() {
+  position: absolute;
+  bottom: 100%;
+  content: "";
+  height: 0;
+  width: 0;
+  border-width: 0 45px 30px 45px;
+  border-style: solid;
+  border-color: $bere transparent;
+}
+@mixin hexagonoAfter() {
+  position: absolute;
+  top: 100%;
+  content: "";
+  height: 0;
+  width: 0;
+  border-width: 30px 45px 0 45px;
+  border-style: solid;
+  border-color: $bere transparent;
+}
+/*end hexagon*/
+@mixin tituloHab() {
+  background-color: $bere;
+  width: 25%;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  color: $cele;
+  font-weight: bold;
+}
+@mixin aboutMeResponsive() {
+  display: block;
+  width: 100%;
+  position: relative;
+  left: 2vh;
+  top: 6vh;
+}
+/*estilos responsive bienvenida*/
+@mixin welcomeResponsive() {
+  width: 100%;
+  float: none;
+  position: relative;
+  top: -2vh;
+  left: 14vh;
+}
+@mixin presentResponsive() {
+  position: relative;
+  top: 5vh;
+  padding: 0;
+}
+@mixin canvasResponsive() {
+  position: relative;
+  margin-top: -152%;
+}
+@mixin redesResponsive() {
+  left: -9vh;
+  position: relative;
+}
+/*responsive about me*/
+@mixin aboutMeResponsive() {
+  display: block;
+  position: absolute;
+  left: 15vh;
+  top: 6vh;
+}
+/*responsive caja texto about me*/
+@mixin aboutMeText() {
+  position: relative;
+  top: -17vh;
+}
+/*responsive habilities*/
+@mixin honeycombResponsive() {
+  position: relative;
+  left: 1.5vh;
+  top: 2vh;
+  z-index: 5;
+  width: 50%;
+  margin: 0;
+}
+/*responsive projects centrado de los portafolios*/
+@mixin projectsResponsive() {
+  padding: 0 10%;
+  width: 90%;
+}
+@mixin conoceMisTrabajos() {
+  padding: 15% 0;
+}
