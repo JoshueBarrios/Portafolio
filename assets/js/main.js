@@ -20,72 +20,72 @@ $(document).ready(function(){
 	$('#welcome').hover(
 	    function() {
 	        var $this = $(this);
-	        $this.data('Bienvenid@', $this.text());
+	        $this.data('Bienvenidos', $this.text());
 	        $this.text("Welcome");
 	    },
 	    function() {
 	        var $this = $(this);
-	        $this.text($this.data('Bienvenid@'));
+	        $this.text($this.data('Bienvenidos'));
 	    }
 	);
 	/*iAm*/
 	$('#iAm').hover(
 	    function() {
 	        var $this = $(this);
-	        $this.data('Soy Vanessa', $this.text());
-	        $this.text("I am Vann");
+	        $this.data('Soy Joshue', $this.text());
+	        $this.text("I am Kaliman");
 	    },
 	    function() {
 	        var $this = $(this);
-	        $this.text($this.data('Soy Vanessa'));
+	        $this.text($this.data('Soy Joshue'));
 	    }
 	);
 	/*Diseño*/
 	$('#designer').hover(
 	    function() {
 	        var $this = $(this);
-	        $this.data('Diseñadora y', $this.text());
+	        $this.data('Diseñador y', $this.text());
 	        $this.text("Designer &");
 	    },
 	    function() {
 	        var $this = $(this);
-	        $this.text($this.data('Diseñadora y'));
+	        $this.text($this.data('Diseñador y'));
 	    }
 	);
 	/*web dev*/
 	$('#webDev').hover(
 	    function() {
 	        var $this = $(this);
-	        $this.data('Desarrolladora front-end', $this.text());
+	        $this.data('Desarrollador front-end', $this.text());
 	        $this.text("Front-end developer");
 	    },
 	    function() {
 	        var $this = $(this);
-	        $this.text($this.data('Desarrolladora front-end'));
+	        $this.text($this.data('Desarrollador front-end'));
 	    }
 	);
 	/*Animals*/
-	$('#loveAnimals').hover(
+	$('#lovesurf').hover(
 	    function() {
 	        var $this = $(this);
-	        $this.data('Amante de los animales', $this.text());
-	        $this.text("I love animals");
+	        $this.data('Amante del surf', $this.text());
+	        $this.text("I love surf");
 	    },
 	    function() {
 	        var $this = $(this);
-	        $this.text($this.data('Amante de los animales'));
+	        $this.text($this.data('Amante del surf'));
 	    }
 	);
 		/*movies*/
-	$('#loveMovies').hover(
+	$('#lovesurf').hover(
 	    function() {
 	        var $this = $(this);
-	        $this.data('Los videojuegos y ver películas.', $this.text());
-	        $this.text("Video Games and go to the cinema :)");
+	        $this.data('Los videojuegos', $this.text());
+	        $this.text("Surfing and video games");
 	    },
 	    function() {
 	        var $this = $(this);
-	        $this.text($this.data('Los videojuegos y ver películas.'));
+	        $this.text($this.data('Los videojuegos y el surfing'));
 	    }
 	);
 	//en caso de que la persona utilice landscape deberá aparecer un mensaje indicando que solo debe usarse portrait

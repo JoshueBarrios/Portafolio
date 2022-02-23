@@ -109,7 +109,7 @@ header.navBar {
           position: relative;
           top: 25vh;
           z-index: 1;
-          /*quitar palabra diseñadora*/
+          /*quitar palabra diseñador*/
           #designer {
             @media screen and (max-width: $mobileSmall) {
               display: none;
